@@ -1,0 +1,11 @@
+print("Enter marks obtained in these five subjects")
+math=int(input("math:"))
+phy=int(input("physics:"))
+chem=int(input("chemistry:"))
+bio=int(input("biology:"))
+eng=int(input("english:"))
+sum=math+phy+chem+bio+eng
+print("sum of scores of math,physics,chemistry,biology,english:",sum)
+percentage=(sum/5)
+print(end="Percentage score:")
+print(percentage,"%")
