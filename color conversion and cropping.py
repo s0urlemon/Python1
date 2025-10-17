@@ -13,7 +13,7 @@ plt.imshow(gray_image,cmap='gray')
 plt.title("GrayScale Image")
 plt.show()
 
-cropped_image=image[100:300,200:400]
+cropped_image=image[550:700,350:500]
 cropped_rgb=cv2.cvtColor(cropped_image,cv2.COLOR_BGR2RGB)
 plt.imshow(cropped_rgb)
 plt.title("Cropped Region")
