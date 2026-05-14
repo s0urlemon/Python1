@@ -51,8 +51,10 @@ def display_language_options():
     print("6.Gujarati(gu)")
     print("7.Malayalam(ml)")
     print("8.Punjabi(pa)")
+    print("9.French(fr)")
+    print("10.Xhosa(xh)")
 
-    choice=input("Please select the target language number(1-8):")
+    choice=input("Please select the target language number(1-10):")
     language_dict={
         "1":"hi",
         "2":"ta",
@@ -61,7 +63,9 @@ def display_language_options():
         "5":"mr",
         "6":"gu",
         "7":"ml",
-        "8":"pa"
+        "8":"pa",
+        "9":"fr",
+        "10":"xh"
     }
     return language_dict.get(choice,"es")
 
